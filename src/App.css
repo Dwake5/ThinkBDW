@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+#root,
+.formMain,
+.footerMain {
+  background: #d3d3d3;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainContainer {
+  background: white;
+  padding-left: 0;
+  padding-right: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input,
+textarea {
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.headerBackground {
+  background-image: url("./assets/links/office.jpeg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  height: 50vh;
+  max-height: 100vh;
+  min-height: 35rem;
 }
 
-.App-link {
-  color: #61dafb;
+.mapsBackground {
+  background-image: url("./assets/links/googleMaps.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  height: 50vh;
+  max-height: 100vh;
+  min-height: 35rem;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mapsOverlay {
+  position: absolute;
+  top: 0;
+  background-color: rgb(255, 255, 255, 0.7);
+  width: calc(100% - 30px);
+  padding: 20px 0;
+}
+
+.contactUsBtn {
+  background-color: transparent;
+  border-radius: 15px;
+  border: 2px solid white;
+}
+
+.submitBtn {
+  background-color: transparent;
+  border-radius: 15px;
+  border: 2px solid black;
+  width: 175px;
+}
+
+.centerDiv {
+  position: relative;
+  top: 25%;
+}
+
+.logoImage {
+  height: 10vh;
+  width: 10vh;
+  margin: auto;
+}
+
+.circleText {
+  margin: auto;
+}
+
+.biggerText {
+  font-size: 3rem;
+}
+
+.circle {
+  margin: auto;
+  margin-bottom: 10px;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 50%;
+  background-color: rgb(221,160,221)
+}
+
+.mapCircle {
+  margin: auto;
+  margin-bottom: 10px;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 50%;
+  background-color: orange;
+}
+
+.peopleCircle {
+  margin: auto;
+  margin-bottom: 10px;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.buildingCircle {
+  margin: auto;
+  margin-bottom: 10px;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 50%;
+  background-color: purple;
+}
+
+.orangeText {
+  color: orange;
+}
+
+.greenText {
+  color: green;
+}
+
+.purpleText {
+  color: purple;
+}
+
+.somethingBigMain {
+  background-color: rgb(218,112,214);
 }
